@@ -37,4 +37,21 @@ The usage of it is to segregate the videos based on the tags mentioned bu the cl
 
 ### Video Distributor Service :
 
-It has an important role to play which helps to reduce of traffic and time consumption of the data load 
+It has an important role to play which helps to reduce of traffic and time consumption of the data load . As the distributed storage is only one and located in a prime location which makes in delay of data access so we use the video distributor service which acts as a  alternate distributed storage and is located in multiple different locations for easy access of the data as it already stores some of it based on the demand of requests present around the location.
+
+### Internet Service Protocol(ISP) :
+
+The ISP takes the requests from the users and maps the data to the required application based on the url and retrieves the data back after getting the information as per the request from the database . 
+
+### cache:
+The cache is same like the video distributor service which helps in storing the data based on the high requests of the users in that particular location.
+
+### Load Balancer :
+A load balancer is a device that acts as a reverse proxy and distributes network or application traffic across a number of servers. The load balancers are used to increase capacity and reliability of applications.
+
+
+## Steps :
+1. Downlaod the file in the required formats and extract it in the desktop.
+2. Use draw.io for opening the file or for any further modifications which are to be added based on your knowledge.
+
+
